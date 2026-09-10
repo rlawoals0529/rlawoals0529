@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" role="img" aria-label="James Kim, full-stack and AI product engineer">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12101c"/><stop offset="55%" stop-color="#1b1330"/><stop offset="100%" stop-color="#0d0b14"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6fa5"/><stop offset="55%" stop-color="#b08cff"/><stop offset="100%" stop-color="#5fd8ff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ff6fa5" stop-opacity=".55"/><stop offset="100%" stop-color="#ff6fa5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1000" height="200" rx="14" fill="url(#sky)"/>
+  <circle cx="838" cy="66" r="120" fill="url(#glow)"/>
+  <circle cx="838" cy="66" r="30" fill="none" stroke="#ff9ec4" stroke-width="1.3" opacity=".85"/>
+
+  <g opacity=".5" fill="#cbb8ff">
+    <circle cx="120" cy="44" r="1.4"/><circle cx="232" cy="150" r="1"/><circle cx="322" cy="34" r="1.2"/>
+    <circle cx="470" cy="164" r="1"/><circle cx="612" cy="52" r="1.3"/><circle cx="726" cy="146" r="1"/>
+    <circle cx="906" cy="160" r="1.2"/><circle cx="64" cy="120" r="1"/><circle cx="556" cy="118" r="1"/>
+  </g>
+
+  <!-- horizon -->
+  <g opacity=".55" stroke="#7b6ba8" stroke-width="1">
+    <path d="M0 168 H1000" opacity=".5"/><path d="M0 178 H1000" opacity=".35"/><path d="M0 188 H1000" opacity=".2"/>
+  </g>
+
+  <text x="56" y="92" font-family="'Segoe UI Variable','Segoe UI',system-ui,sans-serif" font-size="46" font-weight="700" fill="url(#ink)">James Kim</text>
+  <text x="58" y="124" font-family="'Segoe UI Variable','Segoe UI',system-ui,sans-serif" font-size="16.5" fill="#a89fc4">Full-stack and AI product engineer</text>
+  <text x="58" y="150" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="12.5" fill="#6f6790">react · typescript · python · graphql</text>
+</svg>
