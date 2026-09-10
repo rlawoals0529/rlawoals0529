@@ -45,11 +45,35 @@ const rows = repos
 
 const table = `${START}\n\n| Project | What it is |\n| --- | --- |\n${rows}\n\n<sub>Generated from the API. Last refreshed ${new Date().toISOString().slice(0, 10)}.</sub>\n\n${END}`;
 
+// The self-audit. This page's whole thesis is that a claim is not evidence, so it reports
+// what is actually true of these repositories rather than asserting anything about them.
+const audited = repos.length;
+const described = repos.filter((r) => r.description).length;
+const licensed = repos.filter((r) => r.license).length;
+
+const AUDIT_START = "<!-- audit:start -->";
+const AUDIT_END = "<!-- audit:end -->";
+const audit = [
+  AUDIT_START,
+  "",
+  "```",
+  `public repositories   ${audited}`,
+  `with a description    ${described}/${audited}`,
+  `with a licence        ${licensed}/${audited}`,
+  `checked              ${new Date().toISOString().slice(0, 10)}`,
+  "```",
+  "",
+  AUDIT_END,
+].join("\n");
+
 const readme = readFileSync("README.md", "utf8");
 if (!readme.includes(START) || !readme.includes(END)) {
   console.error("Markers missing from README.md");
   process.exit(1);
 }
-const next = readme.replace(new RegExp(`${START}[\\s\\S]*?${END}`), table);
+let next = readme.replace(new RegExp(`${START}[\\s\\S]*?${END}`), table);
+if (next.includes(AUDIT_START) && next.includes(AUDIT_END)) {
+  next = next.replace(new RegExp(`${AUDIT_START}[\\s\\S]*?${AUDIT_END}`), audit);
+}
 writeFileSync("README.md", next);
 console.log(`Wrote ${repos.length} project rows.`);
