@@ -21,16 +21,22 @@ Three things I keep coming back to:
 
 | Project | What it is |
 | --- | --- |
-| **[skill-lint](https://github.com/rlawoals0529/skill-lint)** `TypeScript` | Lint agent SKILL.md files for broken references, colliding triggers and context bloat. |
-| **[agent-skills](https://github.com/rlawoals0529/agent-skills)** | Skills for coding agents, each built because a specific failure kept happening. |
-| **[hikari](https://github.com/rlawoals0529/hikari)** `JavaScript` | Desktop widgets in HTML and JavaScript. Transparent, always on top, no window manager required. |
-| **[streaming-markdown](https://github.com/rlawoals0529/streaming-markdown)** `TypeScript` | Trim a streamed markdown frame back to the longest valid prefix, so an LLM response renders without flickering. |
-| **[nexus](https://github.com/rlawoals0529/nexus)** `JavaScript` | A VS Code board showing which agent session is blocked and needs you. |
-| **[insight](https://github.com/rlawoals0529/insight)** `PHP` | Turns a CSV upload into an interactive dashboard, with in-browser Python and AI-generated insights. |
-| **[neon-bar](https://github.com/rlawoals0529/neon-bar)** `CSS` | A themeable Zebar status bar for Windows, previewable in a browser. |
-| **[universal-file-sharing](https://github.com/rlawoals0529/universal-file-sharing)** `Java` | Send files between machines on a network without either knowing the other's IP address. |
+| **[pane](https://github.com/rlawoals0529/pane)** `JavaScript` | Script a Chrome tab over the DevTools Protocol |
+| **[skill-radar](https://github.com/rlawoals0529/skill-radar)** `TypeScript` | Which agent skill actually fires, and why |
+| **[skill-lint](https://github.com/rlawoals0529/skill-lint)** `TypeScript` | Linter for agent SKILL.md files |
+| **[shelfwear](https://github.com/rlawoals0529/shelfwear)** `TypeScript` | What your Steam library actually gets played |
+| **[tokenview](https://github.com/rlawoals0529/tokenview)** `TypeScript` | Tokenizer and embedding map for language models |
+| **[discern](https://github.com/rlawoals0529/discern)** `Python` | Eval harness that knows when a difference is noise |
+| **[depgraph](https://github.com/rlawoals0529/depgraph)** `Python` | The true install cost of an npm dependency |
+| **[decoder](https://github.com/rlawoals0529/decoder)** `TypeScript` | Paste anything, find out what it is |
+| **[notepad](https://github.com/rlawoals0529/notepad)** `TypeScript` | Type maths in prose, answers in the margin |
+| **[agent-skills](https://github.com/rlawoals0529/agent-skills)** `JavaScript` | Skills for coding agents, built from real failures |
+| **[neon-bar](https://github.com/rlawoals0529/neon-bar)** `JavaScript` | A themeable Zebar status bar for Windows |
+| **[yozora](https://github.com/rlawoals0529/yozora)** `CSS` | Fifteen nocturnal colour themes for VS Code and terminals |
+| **[hikari](https://github.com/rlawoals0529/hikari)** `JavaScript` | Desktop widgets in HTML, CSS and JavaScript |
+| **[streaming-markdown](https://github.com/rlawoals0529/streaming-markdown)** `TypeScript` | Render streamed markdown without the flicker |
 
-<sub>Seeded by hand until these are public; the workflow takes over from there.</sub>
+<sub>Generated from the API. Last refreshed 2026-09-11.</sub>
 
 <!-- projects:end -->
 
@@ -40,9 +46,14 @@ The rule above says a claim is not evidence, so this page does not claim anythin
 these repositories. It counts them.
 
 <!-- audit:start -->
+
 ```
-public repositories   pending first run
+public repositories   14
+with a description    14/14
+with a licence        14/14
+checked              2026-09-11
 ```
+
 <!-- audit:end -->
 
 ---
