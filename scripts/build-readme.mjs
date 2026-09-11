@@ -30,9 +30,43 @@ const repos = (await res.json())
   .filter((r) => !r.fork && !r.archived && r.name !== USER && r.description)
   .sort((a, b) => b.stargazers_count - a.stargazers_count || Date.parse(b.pushed_at) - Date.parse(a.pushed_at));
 
+const readmeBefore = readFileSync("README.md", "utf8");
+const seededRows = (readmeBefore.match(/^\| \*\*\[/gm) ?? []).length;
+
+/**
+ * Nothing public yet is a fact, not a fault.
+ *
+ * This used to exit 1 here, which was the right instinct applied to the wrong case: a 403 is
+ * something broken and deserves a red run, while "none of them are public yet" is the
+ * expected state of a profile whose repositories are still private. Reporting it as a failure
+ * made this workflow permanently red, and a check that is always red is one nobody reads,
+ * which is the same argument the Pages workflows here make for skipping while private.
+ */
 if (repos.length === 0) {
-  console.error("No described public repositories found; leaving the table alone.");
-  process.exit(1);
+  console.log("Nothing public yet, so the hand-written table stands. Not an error.");
+  process.exit(0);
+}
+
+/**
+ * And it must not shrink the page on the way through.
+ *
+ * The table is hand-seeded until the repositories are public, and the handover is gradual:
+ * with one repository public and eight seeded rows, a generator that simply wrote the truth
+ * would replace the landing page with a single line. Each row would be correct and the page
+ * would be worse.
+ *
+ * So it refuses to write a table shorter than the one already there, prints what it would
+ * have written, and exits cleanly. Once enough is public that the generated table is the
+ * longer one, it takes over on its own with no flag to remember.
+ */
+if (repos.length < seededRows) {
+  console.log(
+    `${repos.length} public repositories against ${seededRows} rows already in the table, so ` +
+      "the hand-written one stands. This takes over when the generated table is the longer one."
+  );
+  console.log("It would have written:");
+  for (const r of repos) console.log(`  ${r.name}`);
+  process.exit(0);
 }
 
 const rows = repos
@@ -66,7 +100,7 @@ const audit = [
   AUDIT_END,
 ].join("\n");
 
-const readme = readFileSync("README.md", "utf8");
+const readme = readmeBefore;
 if (!readme.includes(START) || !readme.includes(END)) {
   console.error("Markers missing from README.md");
   process.exit(1);
