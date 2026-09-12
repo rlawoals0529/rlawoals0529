@@ -1,5 +1,7 @@
 <img src="assets/header.svg" alt="James Kim — full-stack and AI product engineer" width="100%">
 
+### → **[rlawoals0529.github.io](https://rlawoals0529.github.io)** — all of it in one place, eight running in your browser
+
 **TypeScript · React · Next.js · GraphQL · Python · FastAPI · PostgreSQL**
 
 I work mostly on frontend product engineering, in React and TypeScript, with the backend and
