@@ -23,22 +23,22 @@ Three things I keep coming back to:
 
 | Project | What it is |
 | --- | --- |
-| **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `CSS` | Everything I have built, in one place |
-| **[streaming-markdown](https://github.com/rlawoals0529/streaming-markdown)** `TypeScript` | Render streamed markdown without the flicker |
-| **[decoder](https://github.com/rlawoals0529/decoder)** `TypeScript` | Paste anything, find out what it is |
-| **[notepad](https://github.com/rlawoals0529/notepad)** `TypeScript` | Type maths in prose, answers in the margin |
-| **[skill-radar](https://github.com/rlawoals0529/skill-radar)** `TypeScript` | Which agent skill actually fires, and why |
-| **[shelfwear](https://github.com/rlawoals0529/shelfwear)** `TypeScript` | What your Steam library actually gets played |
-| **[tokenview](https://github.com/rlawoals0529/tokenview)** `TypeScript` | Tokenizer and embedding map for language models |
-| **[yozora](https://github.com/rlawoals0529/yozora)** `CSS` | Fifteen nocturnal colour themes for VS Code and terminals |
-| **[secondread](https://github.com/rlawoals0529/secondread)** `TypeScript` | Paste code, find out what a reviewer would ask |
-| **[hikari](https://github.com/rlawoals0529/hikari)** `JavaScript` | Desktop widgets in HTML, CSS and JavaScript |
-| **[pane](https://github.com/rlawoals0529/pane)** `JavaScript` | Script a Chrome tab over the DevTools Protocol |
-| **[depgraph](https://github.com/rlawoals0529/depgraph)** `Python` | The true install cost of an npm dependency |
-| **[neon-bar](https://github.com/rlawoals0529/neon-bar)** `JavaScript` | A themeable Zebar status bar for Windows |
-| **[skill-lint](https://github.com/rlawoals0529/skill-lint)** `TypeScript` | Linter for agent SKILL.md files |
+| **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `TypeScript` | Everything I have built, in one place |
+| **[neon-bar](https://github.com/rlawoals0529/neon-bar)** `TypeScript` | A themeable Zebar status bar for Windows |
+| **[depgraph](https://github.com/rlawoals0529/depgraph)** `TypeScript` | The true install cost of an npm dependency |
 | **[discern](https://github.com/rlawoals0529/discern)** `Python` | Eval harness that knows when a difference is noise |
 | **[agent-skills](https://github.com/rlawoals0529/agent-skills)** `JavaScript` | Skills for coding agents, built from real failures |
+| **[skill-lint](https://github.com/rlawoals0529/skill-lint)** `TypeScript` | Linter for agent SKILL.md files |
+| **[skill-radar](https://github.com/rlawoals0529/skill-radar)** `TypeScript` | Which agent skill actually fires, and why |
+| **[secondread](https://github.com/rlawoals0529/secondread)** `TypeScript` | Paste code, find out what a reviewer would ask |
+| **[shelfwear](https://github.com/rlawoals0529/shelfwear)** `TypeScript` | What your Steam library actually gets played |
+| **[notepad](https://github.com/rlawoals0529/notepad)** `TypeScript` | Type maths in prose, answers in the margin |
+| **[tokenview](https://github.com/rlawoals0529/tokenview)** `TypeScript` | Tokenizer and embedding map for language models |
+| **[decoder](https://github.com/rlawoals0529/decoder)** `TypeScript` | Paste anything, find out what it is |
+| **[hikari](https://github.com/rlawoals0529/hikari)** `JavaScript` | Desktop widgets in HTML, CSS and JavaScript |
+| **[yozora](https://github.com/rlawoals0529/yozora)** `CSS` | Fifteen nocturnal colour themes for VS Code and terminals |
+| **[streaming-markdown](https://github.com/rlawoals0529/streaming-markdown)** `TypeScript` | Render streamed markdown without the flicker |
+| **[pane](https://github.com/rlawoals0529/pane)** `JavaScript` | Script a Chrome tab over the DevTools Protocol |
 
 <sub>Generated from the API. Last refreshed 2026-09-12.</sub>
 
