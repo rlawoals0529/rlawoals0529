@@ -100,14 +100,29 @@ const audit = [
   AUDIT_END,
 ].join("\n");
 
+/*
+ * The count in the opening line, derived rather than typed.
+ *
+ * That line said "eight running in your browser" while fifteen of them were. It went stale
+ * for the reason the table used to: it is a fact about the repositories written by hand, in
+ * prose, outside the markers, so nothing could notice it drifting. A repository with a
+ * homepage set is one with something a reader can open - the same test the portfolio page
+ * uses - so the number is a count, not a memory.
+ */
+const live = repos.filter((r) => r.homepage).length;
+
 const readme = readmeBefore;
 if (!readme.includes(START) || !readme.includes(END)) {
   console.error("Markers missing from README.md");
   process.exit(1);
 }
 let next = readme.replace(new RegExp(`${START}[\\s\\S]*?${END}`), table);
+next = next.replace(
+  /— all of it in one place, [a-z0-9]+ running in your browser/,
+  `— all of it in one place, ${live} running in your browser`,
+);
 if (next.includes(AUDIT_START) && next.includes(AUDIT_END)) {
   next = next.replace(new RegExp(`${AUDIT_START}[\\s\\S]*?${AUDIT_END}`), audit);
 }
 writeFileSync("README.md", next);
-console.log(`Wrote ${repos.length} project rows.`);
+console.log(`Wrote ${repos.length} project rows, ${live} of them with something to open.`);
