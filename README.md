@@ -1,6 +1,6 @@
 <img src="assets/header.svg" alt="James Kim — full-stack and AI product engineer" width="100%">
 
-### → **[rlawoals0529.github.io](https://rlawoals0529.github.io)** — all of it in one place, 15 running in your browser
+### → **[rlawoals0529.github.io](https://rlawoals0529.github.io)** — all of it in one place, 16 running in your browser
 
 **TypeScript · React · Next.js · GraphQL · Python · FastAPI · PostgreSQL**
 
@@ -17,14 +17,24 @@ Three things I keep coming back to:
 - **Make the invariant mechanical.** A rule nobody can forget beats a rule everybody agrees
   with.
 
+### Right now
+
+**[sidereal](https://sidereal.rlawoals0529.workers.dev)** is a night sky you can leave open and
+look around, shared with whoever else has it open. Every light in it traces to a live
+measurement: Wikipedia edits as meteors, USGS earthquakes as ground pulses, the ISS on its real
+track, the NOAA aurora forecast, and 8,920 Hipparcos stars behind them. One Durable Object on the
+edge holds the room, so it opens with no cold start. A test fails the build if anything is drawn
+that no measurement is behind.
+
 ### What I have built
 
 <!-- projects:start -->
 
 | Project | What it is |
 | --- | --- |
-| **[pc-audit](https://github.com/rlawoals0529/pc-audit)** `TypeScript` | What your Windows machine is actually costing you |
+| **[sidereal](https://github.com/rlawoals0529/sidereal)** `TypeScript` | A night sky you leave open while you work. Every light in it is a real measured event. |
 | **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `TypeScript` | Everything I have built, in one place |
+| **[pc-audit](https://github.com/rlawoals0529/pc-audit)** `TypeScript` | What your Windows machine is actually costing you |
 | **[neon-bar](https://github.com/rlawoals0529/neon-bar)** `TypeScript` | A themeable Zebar status bar for Windows |
 | **[streaming-markdown](https://github.com/rlawoals0529/streaming-markdown)** `TypeScript` | Render streamed markdown without the flicker |
 | **[agent-skills](https://github.com/rlawoals0529/agent-skills)** `JavaScript` | Skills for coding agents, built from real failures |
@@ -41,7 +51,7 @@ Three things I keep coming back to:
 | **[hikari](https://github.com/rlawoals0529/hikari)** `JavaScript` | Desktop widgets in HTML, CSS and JavaScript |
 | **[pane](https://github.com/rlawoals0529/pane)** `JavaScript` | Script a Chrome tab over the DevTools Protocol |
 
-<sub>Generated from the API. Last refreshed 2026-09-12.</sub>
+<sub>Generated from the API. Last refreshed 2026-09-13.</sub>
 
 <!-- projects:end -->
 
@@ -53,10 +63,10 @@ these repositories. It counts them.
 <!-- audit:start -->
 
 ```
-public repositories   17
-with a description    17/17
-with a licence        16/17
-checked              2026-09-12
+public repositories   18
+with a description    18/18
+with a licence        16/18
+checked              2026-09-13
 ```
 
 <!-- audit:end -->
