@@ -1,6 +1,6 @@
 <img src="assets/header.svg" alt="James Kim — full-stack and AI product engineer" width="100%">
 
-### → **[rlawoals0529.github.io](https://rlawoals0529.github.io)** — all of it in one place, 17 running in your browser
+### → **[rlawoals0529.github.io](https://rlawoals0529.github.io)** — all of it in one place, 18 running in your browser
 
 **TypeScript · React · Next.js · GraphQL · Python · FastAPI · PostgreSQL**
 
@@ -19,6 +19,13 @@ Three things I keep coming back to:
 
 ### Right now
 
+**[FantasyStats](https://fantasystats.rlawoals0529.workers.dev)** tells you the odds rather than
+a score, because a projection does not beat a season average and the page says so in its own
+headline. Four seasons, 24,616 player-weeks: the typical weekly error is 6.2 points against a
+mean of seven. So every player is a distribution rather than a number, nothing is ranked that
+cannot be told apart, and the spike probability is the shaded area rather than a figure printed
+beside it.
+
 **[sidereal](https://sidereal.rlawoals0529.workers.dev)** is a night sky you can leave open and
 look around, shared with whoever else has it open. Every light in it traces to a live
 measurement: Wikipedia edits as meteors, USGS earthquakes as ground pulses, the ISS on its real
@@ -32,9 +39,9 @@ that no measurement is behind.
 
 | Project | What it is |
 | --- | --- |
+| **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `TypeScript` | Everything I have built, in one place |
 | **[FantasyStats](https://github.com/rlawoals0529/FantasyStats)** `TypeScript` | Fantasy football told as odds. It does not sell you a projection, because projections do not beat a season average. |
 | **[sidereal](https://github.com/rlawoals0529/sidereal)** `TypeScript` | A night sky you leave open while you work. Every light in it is a real measured event. |
-| **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `TypeScript` | Everything I have built, in one place |
 | **[pc-audit](https://github.com/rlawoals0529/pc-audit)** `TypeScript` | What your Windows machine is actually costing you |
 | **[neon-bar](https://github.com/rlawoals0529/neon-bar)** `TypeScript` | A themeable Zebar status bar for Windows |
 | **[streaming-markdown](https://github.com/rlawoals0529/streaming-markdown)** `TypeScript` | Render streamed markdown without the flicker |
