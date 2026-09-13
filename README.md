@@ -1,6 +1,6 @@
 <img src="assets/header.svg" alt="James Kim — full-stack and AI product engineer" width="100%">
 
-### → **[rlawoals0529.github.io](https://rlawoals0529.github.io)** — all of it in one place, 16 running in your browser
+### → **[rlawoals0529.github.io](https://rlawoals0529.github.io)** — all of it in one place, 17 running in your browser
 
 **TypeScript · React · Next.js · GraphQL · Python · FastAPI · PostgreSQL**
 
@@ -32,6 +32,7 @@ that no measurement is behind.
 
 | Project | What it is |
 | --- | --- |
+| **[FantasyStats](https://github.com/rlawoals0529/FantasyStats)** `TypeScript` | Fantasy football told as odds. It does not sell you a projection, because projections do not beat a season average. |
 | **[sidereal](https://github.com/rlawoals0529/sidereal)** `TypeScript` | A night sky you leave open while you work. Every light in it is a real measured event. |
 | **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `TypeScript` | Everything I have built, in one place |
 | **[pc-audit](https://github.com/rlawoals0529/pc-audit)** `TypeScript` | What your Windows machine is actually costing you |
@@ -63,9 +64,9 @@ these repositories. It counts them.
 <!-- audit:start -->
 
 ```
-public repositories   18
-with a description    18/18
-with a licence        16/18
+public repositories   19
+with a description    19/19
+with a licence        16/19
 checked              2026-09-13
 ```
 
