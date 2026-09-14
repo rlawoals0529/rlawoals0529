@@ -10,6 +10,8 @@
 import { readFileSync, writeFileSync } from "node:fs";
 
 const USER = process.env.GH_USER ?? "rlawoals0529";
+// Keep these repositories public, but omit them from the profile's project table.
+const HIDDEN_PROJECTS = new Set(["streaming-markdown", "agent-skills"]);
 const START = "<!-- projects:start -->";
 const END = "<!-- projects:end -->";
 
@@ -28,10 +30,14 @@ if (!res.ok) {
 
 const repos = (await res.json())
   .filter((r) => !r.fork && !r.archived && r.name !== USER && r.description)
+  .filter((r) => !HIDDEN_PROJECTS.has(r.name.toLowerCase()))
   .sort((a, b) => b.stargazers_count - a.stargazers_count || Date.parse(b.pushed_at) - Date.parse(a.pushed_at));
 
 const readmeBefore = readFileSync("README.md", "utf8");
-const seededRows = (readmeBefore.match(/^\| \*\*\[/gm) ?? []).length;
+const seededRows = readmeBefore.split("\n").filter((line) => {
+  const match = line.match(/^\| \*\*\[([^\]]+)\]/);
+  return match && !HIDDEN_PROJECTS.has(match[1].toLowerCase());
+}).length;
 
 /**
  * Nothing public yet is a fact, not a fault.
@@ -91,7 +97,7 @@ const audit = [
   AUDIT_START,
   "",
   "```",
-  `public repositories   ${audited}`,
+  `listed repositories   ${audited}`,
   `with a description    ${described}/${audited}`,
   `with a licence        ${licensed}/${audited}`,
   `checked              ${new Date().toISOString().slice(0, 10)}`,
