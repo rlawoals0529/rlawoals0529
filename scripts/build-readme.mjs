@@ -11,7 +11,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 
 const USER = process.env.GH_USER ?? "rlawoals0529";
 // Keep these repositories public, but omit them from the profile's project table.
-const HIDDEN_PROJECTS = new Set(["streaming-markdown", "agent-skills"]);
+const HIDDEN_PROJECTS = new Set(["streaming-markdown"]);
 const START = "<!-- projects:start -->";
 const END = "<!-- projects:end -->";
 
