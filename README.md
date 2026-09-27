@@ -39,6 +39,9 @@ that no measurement is behind.
 
 | Project | What it is |
 | --- | --- |
+| **[ev-purchase-prediction](https://github.com/rlawoals0529/ev-purchase-prediction)** `Python` | Kaggle tabular ML project for EV purchase prediction using cross-validation, feature experiments, and model ensembling. |
+| **[gemma-4-developer-agent](https://github.com/rlawoals0529/gemma-4-developer-agent)** `Python` | Coding agent built for the Google Gemma 4 Developer Agent Competition, with tool use, evaluation, and benchmark-driven iteration. |
+| **[arc-agi-3-agent](https://github.com/rlawoals0529/arc-agi-3-agent)** `Python` | Agent for ARC-AGI-3 focused on environment interaction, reasoning, rollout analysis, and measurable performance. |
 | **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `TypeScript` | Everything I have built, in one place |
 | **[agent-skills](https://github.com/rlawoals0529/agent-skills)** `JavaScript` | Skills for coding agents, built from real failures |
 | **[pc-audit](https://github.com/rlawoals0529/pc-audit)** `TypeScript` | What your Windows machine is actually costing you |
@@ -58,7 +61,7 @@ that no measurement is behind.
 | **[depgraph](https://github.com/rlawoals0529/depgraph)** `TypeScript` | The true install cost of an npm dependency |
 | **[decoder](https://github.com/rlawoals0529/decoder)** `TypeScript` | Paste anything, find out what it is |
 
-<sub>Generated from the API. Last refreshed 2026-09-26.</sub>
+<sub>Generated from the API. Last refreshed 2026-09-27.</sub>
 
 <!-- projects:end -->
 
@@ -70,10 +73,10 @@ these repositories. It counts them.
 <!-- audit:start -->
 
 ```
-listed repositories   18
-with a description    18/18
-with a licence        15/18
-checked              2026-09-26
+listed repositories   21
+with a description    21/21
+with a licence        18/21
+checked              2026-09-27
 ```
 
 <!-- audit:end -->
