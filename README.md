@@ -39,25 +39,25 @@ that no measurement is behind.
 
 | Project | What it is |
 | --- | --- |
-| **[ev-purchase-prediction](https://github.com/rlawoals0529/ev-purchase-prediction)** `Python` | Kaggle tabular ML project for EV purchase prediction using cross-validation, feature experiments, and model ensembling. |
 | **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `TypeScript` | Everything I have built, in one place |
-| **[gemma-4-developer-agent](https://github.com/rlawoals0529/gemma-4-developer-agent)** `Python` | Coding agent built for the Google Gemma 4 Developer Agent Competition, with tool use, evaluation, and benchmark-driven iteration. |
-| **[arc-agi-3-agent](https://github.com/rlawoals0529/arc-agi-3-agent)** `Python` | Agent for ARC-AGI-3 focused on environment interaction, reasoning, rollout analysis, and measurable performance. |
-| **[agent-skills](https://github.com/rlawoals0529/agent-skills)** `JavaScript` | Skills for coding agents, built from real failures |
 | **[pc-audit](https://github.com/rlawoals0529/pc-audit)** `TypeScript` | What your Windows machine is actually costing you |
-| **[FantasyStats](https://github.com/rlawoals0529/FantasyStats)** `TypeScript` | Fantasy football as odds, graded against what actually happened |
 | **[pane](https://github.com/rlawoals0529/pane)** `JavaScript` | Script a Chrome tab over the DevTools Protocol |
-| **[yozora](https://github.com/rlawoals0529/yozora)** `CSS` | Fifteen nocturnal colour themes for VS Code and terminals |
-| **[tokenview](https://github.com/rlawoals0529/tokenview)** `TypeScript` | Tokenizer and embedding map for language models |
-| **[skill-radar](https://github.com/rlawoals0529/skill-radar)** `TypeScript` | Which agent skill actually fires, and why |
-| **[skill-lint](https://github.com/rlawoals0529/skill-lint)** `TypeScript` | Linter for agent SKILL.md files |
-| **[sidereal](https://github.com/rlawoals0529/sidereal)** `TypeScript` | A night sky you leave open while you work, made of real events |
-| **[shelfwear](https://github.com/rlawoals0529/shelfwear)** `TypeScript` | What your Steam library actually gets played |
-| **[secondread](https://github.com/rlawoals0529/secondread)** `TypeScript` | Paste code, find out what a reviewer would ask |
 | **[notepad](https://github.com/rlawoals0529/notepad)** `TypeScript` | Type maths in prose, answers in the margin |
 | **[neon-bar](https://github.com/rlawoals0529/neon-bar)** `TypeScript` | A themeable Zebar status bar for Windows |
-| **[hikari](https://github.com/rlawoals0529/hikari)** `JavaScript` | Desktop widgets in HTML, CSS and JavaScript |
+| **[gemma-4-developer-agent](https://github.com/rlawoals0529/gemma-4-developer-agent)** `Python` | Coding agent built for the Google Gemma 4 Developer Agent Competition, with tool use, evaluation, and benchmark-driven iteration. |
+| **[ev-purchase-prediction](https://github.com/rlawoals0529/ev-purchase-prediction)** `Python` | Kaggle tabular ML project for EV purchase prediction using cross-validation, feature experiments, and model ensembling. |
 | **[discern](https://github.com/rlawoals0529/discern)** `Python` | Eval harness that knows when a difference is noise |
+| **[arc-agi-3-agent](https://github.com/rlawoals0529/arc-agi-3-agent)** `Python` | Agent for ARC-AGI-3 focused on environment interaction, reasoning, rollout analysis, and measurable performance. |
+| **[agent-skills](https://github.com/rlawoals0529/agent-skills)** `JavaScript` | Skills for coding agents, built from real failures |
+| **[tokenview](https://github.com/rlawoals0529/tokenview)** `TypeScript` | Tokenizer and embedding map for language models |
+| **[shelfwear](https://github.com/rlawoals0529/shelfwear)** `TypeScript` | What your Steam library actually gets played |
+| **[secondread](https://github.com/rlawoals0529/secondread)** `TypeScript` | Paste code, find out what a reviewer would ask |
+| **[hikari](https://github.com/rlawoals0529/hikari)** `JavaScript` | Desktop widgets in HTML, CSS and JavaScript |
+| **[FantasyStats](https://github.com/rlawoals0529/FantasyStats)** `TypeScript` | Fantasy football as odds, graded against what actually happened |
+| **[sidereal](https://github.com/rlawoals0529/sidereal)** `TypeScript` | A night sky you leave open while you work, made of real events |
+| **[yozora](https://github.com/rlawoals0529/yozora)** `CSS` | Fifteen nocturnal colour themes for VS Code and terminals |
+| **[skill-radar](https://github.com/rlawoals0529/skill-radar)** `TypeScript` | Which agent skill actually fires, and why |
+| **[skill-lint](https://github.com/rlawoals0529/skill-lint)** `TypeScript` | Linter for agent SKILL.md files |
 | **[depgraph](https://github.com/rlawoals0529/depgraph)** `TypeScript` | The true install cost of an npm dependency |
 | **[decoder](https://github.com/rlawoals0529/decoder)** `TypeScript` | Paste anything, find out what it is |
 
