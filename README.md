@@ -39,12 +39,12 @@ that no measurement is behind.
 
 | Project | What it is |
 | --- | --- |
-| **[shelfwear](https://github.com/rlawoals0529/shelfwear)** `TypeScript` | What your Steam library actually gets played |
+| **[shelfwear](https://github.com/rlawoals0529/shelfwear)** `TypeScript` | A Steam library view for the games you actually play, plus shareable top-nine cards and shelf comparisons. |
 | **[discern](https://github.com/rlawoals0529/discern)** `Python` | Eval harness that knows when a difference is noise |
 | **[depgraph](https://github.com/rlawoals0529/depgraph)** `TypeScript` | The true install cost of an npm dependency |
-| **[ev-purchase-prediction](https://github.com/rlawoals0529/ev-purchase-prediction)** `Python` | Kaggle tabular ML project for EV purchase prediction using cross-validation, feature experiments, and model ensembling. |
-| **[arc-agi-3-agent](https://github.com/rlawoals0529/arc-agi-3-agent)** `Python` | Agent for ARC-AGI-3 focused on environment interaction, reasoning, rollout analysis, and measurable performance. |
-| **[gemma-4-developer-agent](https://github.com/rlawoals0529/gemma-4-developer-agent)** `Python` | Coding agent built for the Google Gemma 4 Developer Agent Competition, with tool use, evaluation, and benchmark-driven iteration. |
+| **[ev-purchase-prediction](https://github.com/rlawoals0529/ev-purchase-prediction)** `Python` | EV purchase prediction, with each model change compared on aligned validation before it survives. |
+| **[arc-agi-3-agent](https://github.com/rlawoals0529/arc-agi-3-agent)** `Python` | An ARC-AGI-3 agent built around interaction traces, rollout analysis and measurable task progress. |
+| **[gemma-4-developer-agent](https://github.com/rlawoals0529/gemma-4-developer-agent)** `Python` | A coding-agent competition entry where prompt and workflow changes have to earn their place on the benchmark. |
 | **[FantasyStats](https://github.com/rlawoals0529/FantasyStats)** `TypeScript` | Fantasy football as odds, graded against what actually happened |
 | **[sidereal](https://github.com/rlawoals0529/sidereal)** `TypeScript` | A night sky you leave open while you work, made of real events |
 | **[pc-audit](https://github.com/rlawoals0529/pc-audit)** `TypeScript` | What your Windows machine is actually costing you |

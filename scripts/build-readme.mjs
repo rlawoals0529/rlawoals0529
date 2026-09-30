@@ -12,6 +12,13 @@ import { readFileSync, writeFileSync } from "node:fs";
 const USER = process.env.GH_USER ?? "rlawoals0529";
 // Keep these repositories public, but omit them from the profile's project table.
 const HIDDEN_PROJECTS = new Set(["streaming-markdown"]);
+const PROJECT_COPY = new Map([
+  ["shelfwear", "A Steam library view for the games you actually play, plus shareable top-nine cards and shelf comparisons."],
+  ["ev-purchase-prediction", "EV purchase prediction, with each model change compared on aligned validation before it survives."],
+  ["arc-agi-3-agent", "An ARC-AGI-3 agent built around interaction traces, rollout analysis and measurable task progress."],
+  ["gemma-4-developer-agent", "A coding-agent competition entry where prompt and workflow changes have to earn their place on the benchmark."],
+  ["Ariadne", "Username search that keeps verified matches, plausible pages and genuine uncertainty separate."],
+]);
 const START = "<!-- projects:start -->";
 const END = "<!-- projects:end -->";
 
@@ -79,7 +86,8 @@ const rows = repos
   .map((r) => {
     const lang = r.language ? ` \`${r.language}\`` : "";
     const stars = r.stargazers_count > 0 ? ` · ★ ${r.stargazers_count}` : "";
-    return `| **[${r.name}](${r.html_url})**${lang}${stars} | ${r.description} |`;
+    const description = PROJECT_COPY.get(r.name) ?? r.description;
+    return `| **[${r.name}](${r.html_url})**${lang}${stars} | ${description} |`;
   })
   .join("\n");
 
