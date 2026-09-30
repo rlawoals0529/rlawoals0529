@@ -36,7 +36,7 @@ if (!res.ok) {
 }
 
 const repos = (await res.json())
-  .filter((r) => !r.fork && !r.archived && r.name !== USER && r.description)
+  .filter((r) => !r.fork && !r.archived && r.name !== USER && (r.description || PROJECT_COPY.has(r.name)))
   .filter((r) => !HIDDEN_PROJECTS.has(r.name.toLowerCase()))
   .sort((a, b) => b.stargazers_count - a.stargazers_count || Date.parse(b.pushed_at) - Date.parse(a.pushed_at));
 
@@ -96,7 +96,7 @@ const table = `${START}\n\n| Project | What it is |\n| --- | --- |\n${rows}\n\n<
 // The self-audit. This page's whole thesis is that a claim is not evidence, so it reports
 // what is actually true of these repositories rather than asserting anything about them.
 const audited = repos.length;
-const described = repos.filter((r) => r.description).length;
+const described = repos.filter((r) => r.description || PROJECT_COPY.has(r.name)).length;
 const licensed = repos.filter((r) => r.license).length;
 
 const AUDIT_START = "<!-- audit:start -->";
