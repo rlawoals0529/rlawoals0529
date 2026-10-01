@@ -18,6 +18,10 @@ Three things I keep coming back to:
 
 ### Four places I'd start
 
+**[shelfwear](https://shelfwear.rlawoals0529.workers.dev)** turns a Steam library into something
+you can actually read and share, with whole-library browsing, top-nine cards, comparisons,
+custom shelves, achievements, and recent activity. Local-file parsing stays in the browser.
+
 **[FantasyStats](https://fantasystats.rlawoals0529.workers.dev)** tells you the odds rather than
 a score, because a projection does not beat a season average and the page says so in its own
 headline. Four seasons, 24,616 player-weeks: the typical weekly error is 6.2 points against a
