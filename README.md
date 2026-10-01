@@ -46,11 +46,13 @@ that no measurement is behind.
 
 | Project | What it is |
 | --- | --- |
-| **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `CSS` | Everything I have built, in one place |
+| **[tokenview](https://github.com/rlawoals0529/tokenview)** `TypeScript` | Tokenizer and embedding map for language models |
+| **[skill-radar](https://github.com/rlawoals0529/skill-radar)** `TypeScript` | Which agent skill actually fires, and why |
 | **[shelfwear](https://github.com/rlawoals0529/shelfwear)** `TypeScript` | Steam library analysis with local-first parsing, whole-shelf browsing, shareable cards, and friend comparisons. |
-| **[hikari](https://github.com/rlawoals0529/hikari)** `JavaScript` | Desktop widgets in HTML, CSS and JavaScript |
+| **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `CSS` | Everything I have built, in one place |
 | **[Ariadne](https://github.com/rlawoals0529/Ariadne)** `TypeScript` | Evidence-aware search that keeps verified results, plausible pages, and genuine uncertainty separate. |
 | **[agent-skills](https://github.com/rlawoals0529/agent-skills)** `JavaScript` | Skills for coding agents, built from real failures |
+| **[hikari](https://github.com/rlawoals0529/hikari)** `JavaScript` | Desktop widgets in HTML, CSS and JavaScript |
 | **[ev-purchase-prediction](https://github.com/rlawoals0529/ev-purchase-prediction)** `Python` | EV purchase prediction, with each model change compared on aligned validation before it survives. |
 | **[discern](https://github.com/rlawoals0529/discern)** `Python` | Eval harness that knows when a difference is noise |
 | **[depgraph](https://github.com/rlawoals0529/depgraph)** `TypeScript` | The true install cost of an npm dependency |
@@ -62,8 +64,6 @@ that no measurement is behind.
 | **[notepad](https://github.com/rlawoals0529/notepad)** `TypeScript` | Type maths in prose, answers in the margin |
 | **[pane](https://github.com/rlawoals0529/pane)** `JavaScript` | Script a Chrome tab over the DevTools Protocol |
 | **[decoder](https://github.com/rlawoals0529/decoder)** `TypeScript` | Paste anything, find out what it is |
-| **[tokenview](https://github.com/rlawoals0529/tokenview)** `TypeScript` | Tokenizer and embedding map for language models |
-| **[skill-radar](https://github.com/rlawoals0529/skill-radar)** `TypeScript` | Which agent skill actually fires, and why |
 | **[yozora](https://github.com/rlawoals0529/yozora)** `CSS` | Fifteen nocturnal colour themes for VS Code and terminals |
 | **[neon-bar](https://github.com/rlawoals0529/neon-bar)** `TypeScript` | A themeable Zebar status bar for Windows |
 | **[skill-lint](https://github.com/rlawoals0529/skill-lint)** `TypeScript` | Linter for agent SKILL.md files |
