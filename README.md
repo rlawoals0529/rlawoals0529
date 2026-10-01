@@ -1,4 +1,4 @@
-<img src="assets/header.svg" alt="James Kim — product-minded engineer" width="100%">
+<img src="assets/header.svg" alt="rlawoals0529 — product-minded engineer" width="100%">
 
 ### → **[rlawoals0529.github.io](https://rlawoals0529.github.io)** — all of it in one place, 17 running in your browser
 
