@@ -18,6 +18,10 @@ Three things I keep coming back to:
 
 ### Four places I'd start
 
+**[Ariadne](https://github.com/rlawoals0529/Ariadne)** is an evidence-aware search interface
+that keeps verified results separate from uncertain matches instead of pretending every hit
+means the same thing.
+
 **[shelfwear](https://shelfwear.rlawoals0529.workers.dev)** turns a Steam library into something
 you can actually read and share, with whole-library browsing, top-nine cards, comparisons,
 custom shelves, achievements, and recent activity. Local-file parsing stays in the browser.
