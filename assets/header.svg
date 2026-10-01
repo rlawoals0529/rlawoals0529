@@ -28,5 +28,5 @@
 
   <text x="56" y="92" font-family="'Segoe UI Variable','Segoe UI',system-ui,sans-serif" font-size="46" font-weight="700" fill="url(#ink)">James Kim</text>
   <text x="58" y="124" font-family="'Segoe UI Variable','Segoe UI',system-ui,sans-serif" font-size="16.5" fill="#a89fc4">Product-minded engineer</text>
-  <text x="58" y="150" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="12.5" fill="#6f6790">react · typescript · python · graphql</text>
+  <text x="58" y="150" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="12.5" fill="#6f6790">product · data · interfaces · systems</text>
 </svg>
