@@ -47,11 +47,11 @@ that no measurement is behind.
 | Project | What it is |
 | --- | --- |
 | **[hikari](https://github.com/rlawoals0529/hikari)** `JavaScript` | Desktop widgets in HTML, CSS and JavaScript |
+| **[agent-skills](https://github.com/rlawoals0529/agent-skills)** `JavaScript` | Skills for coding agents, built from real failures |
+| **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `CSS` | Everything I have built, in one place |
 | **[Ariadne](https://github.com/rlawoals0529/Ariadne)** `TypeScript` | Evidence-aware search that keeps verified results, plausible pages, and genuine uncertainty separate. |
 | **[shelfwear](https://github.com/rlawoals0529/shelfwear)** `TypeScript` | Steam library analysis with local-first parsing, whole-shelf browsing, shareable cards, and friend comparisons. |
-| **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `CSS` | Everything I have built, in one place |
 | **[ev-purchase-prediction](https://github.com/rlawoals0529/ev-purchase-prediction)** `Python` | EV purchase prediction, with each model change compared on aligned validation before it survives. |
-| **[agent-skills](https://github.com/rlawoals0529/agent-skills)** `JavaScript` | Skills for coding agents, built from real failures |
 | **[discern](https://github.com/rlawoals0529/discern)** `Python` | Eval harness that knows when a difference is noise |
 | **[depgraph](https://github.com/rlawoals0529/depgraph)** `TypeScript` | The true install cost of an npm dependency |
 | **[gemma-4-developer-agent](https://github.com/rlawoals0529/gemma-4-developer-agent)** `Python` | A coding-agent competition entry where prompt and workflow changes have to earn their place on the benchmark. |
