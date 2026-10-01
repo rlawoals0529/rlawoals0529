@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" role="img" aria-label="James Kim, product-minded engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" role="img" aria-label="rlawoals0529, product-minded engineer">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#12101c"/><stop offset="55%" stop-color="#1b1330"/><stop offset="100%" stop-color="#0d0b14"/>
@@ -26,7 +26,7 @@
     <path d="M0 168 H1000" opacity=".5"/><path d="M0 178 H1000" opacity=".35"/><path d="M0 188 H1000" opacity=".2"/>
   </g>
 
-  <text x="56" y="92" font-family="'Segoe UI Variable','Segoe UI',system-ui,sans-serif" font-size="46" font-weight="700" fill="url(#ink)">James Kim</text>
+  <text x="56" y="92" font-family="'Segoe UI Variable','Segoe UI',system-ui,sans-serif" font-size="46" font-weight="700" fill="url(#ink)">rlawoals0529</text>
   <text x="58" y="124" font-family="'Segoe UI Variable','Segoe UI',system-ui,sans-serif" font-size="16.5" fill="#a89fc4">Product-minded engineer</text>
   <text x="58" y="150" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="12.5" fill="#6f6790">product · data · interfaces · systems</text>
 </svg>
