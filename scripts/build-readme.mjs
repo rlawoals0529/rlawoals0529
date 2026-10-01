@@ -17,7 +17,10 @@ const PROJECT_COPY = new Map([
   ["ev-purchase-prediction", "EV purchase prediction, with each model change compared on aligned validation before it survives."],
   ["arc-agi-3-agent", "An ARC-AGI-3 agent built around interaction traces, rollout analysis and measurable task progress."],
   ["gemma-4-developer-agent", "A coding-agent competition entry where prompt and workflow changes have to earn their place on the benchmark."],
-  ["Ariadne", "Username search that keeps verified matches, plausible pages and genuine uncertainty separate."],
+  ["Ariadne", "Evidence-aware search that keeps verified results, plausible pages, and genuine uncertainty separate."],
+  ["FantasyStats", "Fantasy football as probabilities and distributions, benchmarked against what actually happened."],
+  ["sidereal", "A shared night sky built from live measured events and real cataloged stars."],
+  ["pc-audit", "A Windows audit tool that turns machine data into actionable checks without inventing measurements."],
 ]);
 const START = "<!-- projects:start -->";
 const END = "<!-- projects:end -->";
