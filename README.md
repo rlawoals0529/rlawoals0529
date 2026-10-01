@@ -2,11 +2,10 @@
 
 ### → **[rlawoals0529.github.io](https://rlawoals0529.github.io)** — all of it in one place, 17 running in your browser
 
-**TypeScript · React · Next.js · GraphQL · Python · FastAPI · PostgreSQL**
+**TypeScript · React · Python · SQL · Cloudflare Workers**
 
-I work mostly on frontend product engineering, in React and TypeScript, with the backend and
-AI services behind it. Lately most of what I build is either **for** agents or **run by**
-them.
+I build browser tools, data products, gaming projects, and interfaces I wish already existed.
+The part I care about most is where **product decisions, evidence, and implementation have to agree**.
 
 Three things I keep coming back to:
 
@@ -17,7 +16,15 @@ Three things I keep coming back to:
 - **Make the invariant mechanical.** A rule nobody can forget beats a rule everybody agrees
   with.
 
-### Right now
+### Four places I'd start
+
+**[Ariadne](https://github.com/rlawoals0529/Ariadne)** is an evidence-aware search interface
+that keeps verified results separate from uncertain matches instead of pretending every hit
+means the same thing.
+
+**[shelfwear](https://shelfwear.rlawoals0529.workers.dev)** turns a Steam library into something
+you can actually read and share, with whole-library browsing, top-nine cards, comparisons,
+custom shelves, achievements, and recent activity. Local-file parsing stays in the browser.
 
 **[FantasyStats](https://fantasystats.rlawoals0529.workers.dev)** tells you the odds rather than
 a score, because a projection does not beat a season average and the page says so in its own
