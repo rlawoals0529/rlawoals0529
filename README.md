@@ -46,17 +46,18 @@ that no measurement is behind.
 
 | Project | What it is |
 | --- | --- |
-| **[shelfwear](https://github.com/rlawoals0529/shelfwear)** `TypeScript` | A Steam library view for the games you actually play, plus shareable top-nine cards and shelf comparisons. |
-| **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `TypeScript` | Everything I have built, in one place |
-| **[Ariadne](https://github.com/rlawoals0529/Ariadne)** `TypeScript` | Username search that keeps verified matches, plausible pages and genuine uncertainty separate. |
+| **[hikari](https://github.com/rlawoals0529/hikari)** `JavaScript` | Desktop widgets in HTML, CSS and JavaScript |
+| **[Ariadne](https://github.com/rlawoals0529/Ariadne)** `TypeScript` | Evidence-aware search that keeps verified results, plausible pages, and genuine uncertainty separate. |
+| **[shelfwear](https://github.com/rlawoals0529/shelfwear)** `TypeScript` | Steam library analysis with local-first parsing, whole-shelf browsing, shareable cards, and friend comparisons. |
+| **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `CSS` | Everything I have built, in one place |
 | **[ev-purchase-prediction](https://github.com/rlawoals0529/ev-purchase-prediction)** `Python` | EV purchase prediction, with each model change compared on aligned validation before it survives. |
 | **[agent-skills](https://github.com/rlawoals0529/agent-skills)** `JavaScript` | Skills for coding agents, built from real failures |
 | **[discern](https://github.com/rlawoals0529/discern)** `Python` | Eval harness that knows when a difference is noise |
 | **[depgraph](https://github.com/rlawoals0529/depgraph)** `TypeScript` | The true install cost of an npm dependency |
 | **[gemma-4-developer-agent](https://github.com/rlawoals0529/gemma-4-developer-agent)** `Python` | A coding-agent competition entry where prompt and workflow changes have to earn their place on the benchmark. |
-| **[FantasyStats](https://github.com/rlawoals0529/FantasyStats)** `TypeScript` | Fantasy football as odds, graded against what actually happened |
-| **[sidereal](https://github.com/rlawoals0529/sidereal)** `TypeScript` | A night sky you leave open while you work, made of real events |
-| **[pc-audit](https://github.com/rlawoals0529/pc-audit)** `TypeScript` | What your Windows machine is actually costing you |
+| **[FantasyStats](https://github.com/rlawoals0529/FantasyStats)** `TypeScript` | Fantasy football as probabilities and distributions, benchmarked against what actually happened. |
+| **[sidereal](https://github.com/rlawoals0529/sidereal)** `TypeScript` | A shared night sky built from live measured events and real cataloged stars. |
+| **[pc-audit](https://github.com/rlawoals0529/pc-audit)** `TypeScript` | A Windows audit tool that turns machine data into actionable checks without inventing measurements. |
 | **[secondread](https://github.com/rlawoals0529/secondread)** `TypeScript` | Paste code, find out what a reviewer would ask |
 | **[notepad](https://github.com/rlawoals0529/notepad)** `TypeScript` | Type maths in prose, answers in the margin |
 | **[pane](https://github.com/rlawoals0529/pane)** `JavaScript` | Script a Chrome tab over the DevTools Protocol |
@@ -64,11 +65,10 @@ that no measurement is behind.
 | **[tokenview](https://github.com/rlawoals0529/tokenview)** `TypeScript` | Tokenizer and embedding map for language models |
 | **[skill-radar](https://github.com/rlawoals0529/skill-radar)** `TypeScript` | Which agent skill actually fires, and why |
 | **[yozora](https://github.com/rlawoals0529/yozora)** `CSS` | Fifteen nocturnal colour themes for VS Code and terminals |
-| **[hikari](https://github.com/rlawoals0529/hikari)** `JavaScript` | Desktop widgets in HTML, CSS and JavaScript |
 | **[neon-bar](https://github.com/rlawoals0529/neon-bar)** `TypeScript` | A themeable Zebar status bar for Windows |
 | **[skill-lint](https://github.com/rlawoals0529/skill-lint)** `TypeScript` | Linter for agent SKILL.md files |
 
-<sub>Generated from the API. Last refreshed 2026-09-30.</sub>
+<sub>Generated from the API. Last refreshed 2026-10-01.</sub>
 
 <!-- projects:end -->
 
@@ -83,7 +83,7 @@ these repositories. It counts them.
 listed repositories   21
 with a description    21/21
 with a licence        17/21
-checked              2026-09-30
+checked              2026-10-01
 ```
 
 <!-- audit:end -->
