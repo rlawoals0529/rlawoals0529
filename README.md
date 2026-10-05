@@ -46,11 +46,11 @@ that no measurement is behind.
 
 | Project | What it is |
 | --- | --- |
+| **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `CSS` | Everything I have built, in one place |
 | **[shelfwear](https://github.com/rlawoals0529/shelfwear)** `TypeScript` | Steam library analysis with local-first parsing, whole-shelf browsing, shareable cards, and friend comparisons. |
 | **[agent-skills](https://github.com/rlawoals0529/agent-skills)** `JavaScript` | Skills for coding agents, built from real failures |
 | **[tokenview](https://github.com/rlawoals0529/tokenview)** `TypeScript` | Tokenizer and embedding map for language models |
 | **[skill-radar](https://github.com/rlawoals0529/skill-radar)** `TypeScript` | Which agent skill actually fires, and why |
-| **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `CSS` | Everything I have built, in one place |
 | **[Ariadne](https://github.com/rlawoals0529/Ariadne)** `TypeScript` | Evidence-aware search that keeps verified results, plausible pages, and genuine uncertainty separate. |
 | **[hikari](https://github.com/rlawoals0529/hikari)** `JavaScript` | Desktop widgets in HTML, CSS and JavaScript |
 | **[ev-purchase-prediction](https://github.com/rlawoals0529/ev-purchase-prediction)** `Python` | EV purchase prediction, with each model change compared on aligned validation before it survives. |
@@ -68,7 +68,7 @@ that no measurement is behind.
 | **[neon-bar](https://github.com/rlawoals0529/neon-bar)** `TypeScript` | A themeable Zebar status bar for Windows |
 | **[skill-lint](https://github.com/rlawoals0529/skill-lint)** `TypeScript` | Linter for agent SKILL.md files |
 
-<sub>Generated from the API. Last refreshed 2026-10-04.</sub>
+<sub>Generated from the API. Last refreshed 2026-10-05.</sub>
 
 <!-- projects:end -->
 
@@ -83,7 +83,7 @@ these repositories. It counts them.
 listed repositories   21
 with a description    21/21
 with a licence        17/21
-checked              2026-10-04
+checked              2026-10-05
 ```
 
 <!-- audit:end -->
