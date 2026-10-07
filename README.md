@@ -1,6 +1,6 @@
 <img src="assets/header.svg" alt="rlawoals0529 — product-minded engineer" width="100%">
 
-### → **[rlawoals0529.github.io](https://rlawoals0529.github.io)** — all of it in one place, 18 running in your browser
+### → **[rlawoals0529.github.io](https://rlawoals0529.github.io)** — all of it in one place, 19 running in your browser
 
 **TypeScript · React · Python · SQL · Cloudflare Workers**
 
@@ -46,6 +46,7 @@ that no measurement is behind.
 
 | Project | What it is |
 | --- | --- |
+| **[destiny-roadmap](https://github.com/rlawoals0529/destiny-roadmap)** `JavaScript` | A personal Destiny 2 checklist, from Iconoclasm to the next good step |
 | **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `CSS` | Everything I have built, in one place |
 | **[shelfwear](https://github.com/rlawoals0529/shelfwear)** `TypeScript` | Steam library analysis with local-first parsing, whole-shelf browsing, shareable cards, and friend comparisons. |
 | **[agent-skills](https://github.com/rlawoals0529/agent-skills)** `JavaScript` | Skills for coding agents, built from real failures |
@@ -68,7 +69,7 @@ that no measurement is behind.
 | **[neon-bar](https://github.com/rlawoals0529/neon-bar)** `TypeScript` | A themeable Zebar status bar for Windows |
 | **[skill-lint](https://github.com/rlawoals0529/skill-lint)** `TypeScript` | Linter for agent SKILL.md files |
 
-<sub>Generated from the API. Last refreshed 2026-10-06.</sub>
+<sub>Generated from the API. Last refreshed 2026-10-07.</sub>
 
 <!-- projects:end -->
 
@@ -80,10 +81,10 @@ these repositories. It counts them.
 <!-- audit:start -->
 
 ```
-listed repositories   21
-with a description    21/21
-with a licence        17/21
-checked              2026-10-06
+listed repositories   22
+with a description    22/22
+with a licence        17/22
+checked              2026-10-07
 ```
 
 <!-- audit:end -->
