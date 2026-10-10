@@ -40,6 +40,14 @@ track, the NOAA aurora forecast, and 8,920 Hipparcos stars behind them. One Dura
 edge holds the room, so it opens with no cold start. A test fails the build if anything is drawn
 that no measurement is behind.
 
+### In development
+
+**Astralys** is a local-first creative workspace for image editing and conversion,
+metadata-stripping exports, and single-image PDFs. Files are processed on-device.
+An isolated Rust/WASM experiment explores bounded, cancellable image compositing;
+it is not part of the production editor. The repository is private while naming,
+security-disclosure, accessibility, and real-world image checks are completed.
+
 ### What I have built
 
 <!-- projects:start -->
