@@ -1,6 +1,6 @@
 <img src="assets/header.svg" alt="rlawoals0529 — product-minded engineer" width="100%">
 
-### → **[rlawoals0529.github.io](https://rlawoals0529.github.io)** — all of it in one place, 19 running in your browser
+### → **[rlawoals0529.github.io](https://rlawoals0529.github.io)** — all of it in one place, 20 running in your browser
 
 **TypeScript · React · Python · SQL · Cloudflare Workers**
 
@@ -54,6 +54,7 @@ security-disclosure, accessibility, and real-world image checks are completed.
 
 | Project | What it is |
 | --- | --- |
+| **[Homeward](https://github.com/rlawoals0529/Homeward)** | Every service has a story worth keeping. A local-first heritage application for U.S. military veterans. |
 | **[Astralys](https://github.com/rlawoals0529/Astralys)** `TypeScript` | Privacy-first, local-first creative workspace and file conversion toolbox. |
 | **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `CSS` | Everything I have built, in one place |
 | **[destiny-roadmap](https://github.com/rlawoals0529/destiny-roadmap)** `JavaScript` | A personal Destiny 2 checklist, from Iconoclasm to the next good step |
@@ -78,7 +79,7 @@ security-disclosure, accessibility, and real-world image checks are completed.
 | **[neon-bar](https://github.com/rlawoals0529/neon-bar)** `TypeScript` | A themeable Zebar status bar for Windows |
 | **[skill-lint](https://github.com/rlawoals0529/skill-lint)** `TypeScript` | Linter for agent SKILL.md files |
 
-<sub>Generated from the API. Last refreshed 2026-10-13.</sub>
+<sub>Generated from the API. Last refreshed 2026-10-14.</sub>
 
 <!-- projects:end -->
 
@@ -90,10 +91,10 @@ these repositories. It counts them.
 <!-- audit:start -->
 
 ```
-listed repositories   23
-with a description    23/23
-with a licence        18/23
-checked              2026-10-13
+listed repositories   24
+with a description    24/24
+with a licence        18/24
+checked              2026-10-14
 ```
 
 <!-- audit:end -->
