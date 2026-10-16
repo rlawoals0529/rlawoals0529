@@ -54,12 +54,12 @@ security-disclosure, accessibility, and real-world image checks are completed.
 
 | Project | What it is |
 | --- | --- |
+| **[agent-skills](https://github.com/rlawoals0529/agent-skills)** `JavaScript` | Skills for coding agents, built from real failures |
 | **[Homeward](https://github.com/rlawoals0529/Homeward)** | Every service has a story worth keeping. A local-first heritage application for U.S. military veterans. |
 | **[Astralys](https://github.com/rlawoals0529/Astralys)** `TypeScript` | Privacy-first, local-first creative workspace and file conversion toolbox. |
 | **[rlawoals0529.github.io](https://github.com/rlawoals0529/rlawoals0529.github.io)** `CSS` | Everything I have built, in one place |
 | **[destiny-roadmap](https://github.com/rlawoals0529/destiny-roadmap)** `JavaScript` | A personal Destiny 2 checklist, from Iconoclasm to the next good step |
 | **[shelfwear](https://github.com/rlawoals0529/shelfwear)** `TypeScript` | Steam library analysis with local-first parsing, whole-shelf browsing, shareable cards, and friend comparisons. |
-| **[agent-skills](https://github.com/rlawoals0529/agent-skills)** `JavaScript` | Skills for coding agents, built from real failures |
 | **[tokenview](https://github.com/rlawoals0529/tokenview)** `TypeScript` | Tokenizer and embedding map for language models |
 | **[skill-radar](https://github.com/rlawoals0529/skill-radar)** `TypeScript` | Which agent skill actually fires, and why |
 | **[Ariadne](https://github.com/rlawoals0529/Ariadne)** `TypeScript` | Evidence-aware search that keeps verified results, plausible pages, and genuine uncertainty separate. |
@@ -79,7 +79,7 @@ security-disclosure, accessibility, and real-world image checks are completed.
 | **[neon-bar](https://github.com/rlawoals0529/neon-bar)** `TypeScript` | A themeable Zebar status bar for Windows |
 | **[skill-lint](https://github.com/rlawoals0529/skill-lint)** `TypeScript` | Linter for agent SKILL.md files |
 
-<sub>Generated from the API. Last refreshed 2026-10-15.</sub>
+<sub>Generated from the API. Last refreshed 2026-10-16.</sub>
 
 <!-- projects:end -->
 
@@ -94,7 +94,7 @@ these repositories. It counts them.
 listed repositories   24
 with a description    24/24
 with a licence        18/24
-checked              2026-10-15
+checked              2026-10-16
 ```
 
 <!-- audit:end -->
